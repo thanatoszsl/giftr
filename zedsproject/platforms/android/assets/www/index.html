@@ -22,18 +22,11 @@
             </a>
         <h1 class="title">GIFTR</h1>
     </header>
-    <!--
-        <nav class="bar bar-tab">
-            <a class="tab-item">
-                <span class="icon icon-plus"></span>
-                <span class="tab-label">Add Person</span>
-            </a>
-        </nav>
-        -->
-    <div id="people-page" class="content">
+    <div id="page-people" class="content">
         <!-- read through localStorage for contacts -->
-        <ul class="table-view" id="people-list"></ul>
-        
+        <ul class="table-view" id="contact-list">
+
+        </ul>
     </div>
 
     <div id="personModal" class="modal">
@@ -71,6 +64,7 @@
     <script type="text/javascript" src="cordova.js"></script>
     <!-- include the compiled Ratchet JS -->
     <script src="js/ratchet.min.js"></script>
+    <script src="js/moment.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
 
 </body>
